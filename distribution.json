@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
+  "rss": "",
   "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+    "clientId": "",
+    "smallImageText": "",
+    "smallImageKey": ""
   },
   "servers": [
     {
@@ -127,7 +127,7 @@
                 "MD5": "",
                 "url": "https://cdn.modrinth.com/data/M4vJe1FJ/versions/DThCgWlO/caramelChat-mc1.21.1-fabric-1.2.2.jar"
               }
-            }
+            } 
           ]
         }
       ]
