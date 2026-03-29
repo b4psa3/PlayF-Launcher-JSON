@@ -2,135 +2,135 @@
   "version": "1.0.0",
   "rss": "",
   "discord": {
-    "clientId": "",
-    "smallImageText": "",
-    "smallImageKey": ""
+      "clientId": "",
+      "smallImageText": "",
+      "smallImageKey": ""
   },
   "servers": [
-    {
-      "id": "Fabric-1.21.4",
-      "name": "PlayFarm (Fabric 1.21.4)",
-      "description": "하늘 섬에서의 힐링 생활",
-      "icon": null,
-      "version": "1.0.0",
-      "address": "playfarm.kr",
-      "minecraftVersion": "1.21.4",
-      "mainServer": false,
-      "autoconnect": true,
-      "modules": [
-        {
-          "id": "net.fabricmc:fabric-loader:0.18.5",
-          "name": "Fabric (fabric-loader)",
-          "type": "Fabric",
-          "artifact": {
-            "size": 1959156,
-            "MD5": "3fa0cee580b5c4a20947ae8149719a0f",
-            "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/net/fabricmc/fabric-loader/0.18.5/fabric-loader-0.18.5.jar"
-          },
-          "subModules": [
-            {
-              "id": "1.21.4-fabric-0.18.5",
-              "name": "Fabric (version.json)",
-              "type": "VersionManifest",
-              "artifact": {
-                "size": 2847,
-                "MD5": "e143d1f3f2359d724d5d751a67c1ded4",
-                "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/versions/1.21.4-fabric-0.18.5/1.21.4-fabric-0.18.5.json"
+      {
+          "id": "Fabric-1.21.4",
+          "name": "PlayFarm (Fabric 1.21.4)",
+          "description": "하늘 섬에서의 힐링 생활",
+          "icon": null,
+          "version": "1.0.0",
+          "address": "playfarm.kr",
+          "minecraftVersion": "1.21.4",
+          "mainServer": false,
+          "autoconnect": true,
+          "modules": [
+              {
+                  "id": "net.fabricmc:fabric-loader:0.18.5",
+                  "name": "Fabric (fabric-loader)",
+                  "type": "Fabric",
+                  "artifact": {
+                      "size": 1959156,
+                      "MD5": "3fa0cee580b5c4a20947ae8149719a0f",
+                      "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/net/fabricmc/fabric-loader/0.18.5/fabric-loader-0.18.5.jar"
+                  },
+                  "subModules": [
+                      {
+                          "id": "1.21.4-fabric-0.18.5",
+                          "name": "Fabric (version.json)",
+                          "type": "VersionManifest",
+                          "artifact": {
+                              "size": 2847,
+                              "MD5": "e143d1f3f2359d724d5d751a67c1ded4",
+                              "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/versions/1.21.4-fabric-0.18.5/1.21.4-fabric-0.18.5.json"
+                          }
+                      },
+                      {
+                          "id": "org.ow2.asm:asm:9.9",
+                          "name": "Fabric (asm)",
+                          "type": "Library",
+                          "artifact": {
+                              "size": 126122,
+                              "MD5": "6d1dd0482c03a6dc1807d9d004456021",
+                              "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
+                          }
+                      },
+                      {
+                          "id": "org.ow2.asm:asm-analysis:9.9",
+                          "name": "Fabric (asm-analysis)",
+                          "type": "Library",
+                          "artifact": {
+                              "size": 35149,
+                              "MD5": "f07383cfbd50f097558341a03b8871e1",
+                              "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
+                          }
+                      },
+                      {
+                          "id": "org.ow2.asm:asm-commons:9.9",
+                          "name": "Fabric (asm-commons)",
+                          "type": "Library",
+                          "artifact": {
+                              "size": 74348,
+                              "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
+                              "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
+                          }
+                      },
+                      {
+                          "id": "org.ow2.asm:asm-tree:9.9",
+                          "name": "Fabric (asm-tree)",
+                          "type": "Library",
+                          "artifact": {
+                              "size": 51947,
+                              "MD5": "912eeaba1a63d574ffc66c651c7c6725",
+                              "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
+                          }
+                      },
+                      {
+                          "id": "org.ow2.asm:asm-util:9.9",
+                          "name": "Fabric (asm-util)",
+                          "type": "Library",
+                          "artifact": {
+                              "size": 94565,
+                              "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
+                              "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
+                          }
+                      },
+                      {
+                          "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
+                          "name": "Fabric (sponge-mixin)",
+                          "type": "Library",
+                          "artifact": {
+                              "size": 1505269,
+                              "MD5": "d27dcb910788a0bd4bea72942a714093",
+                              "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
+                          }
+                      },
+                      {
+                          "id": "net.fabricmc:intermediary:1.21.4",
+                          "name": "Fabric (intermediary)",
+                          "type": "Library",
+                          "artifact": {
+                              "size": 701826,
+                              "MD5": "d0f4187a62328d4a95f3428434efbd48",
+                              "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
+                          }
+                      },
+                      {
+                          "id": "net.fabricmc.fabric-api",
+                          "name": "Fabric API",
+                          "type": "FabricMod",
+                          "artifact": {
+                              "size": 2149128,
+                              "MD5": "128A8D042180E7C92567342E21A21A6D",
+                              "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/p96k10UR/fabric-api-0.119.4%2B1.21.4.jar"
+                          }
+                      },
+                      {
+                          "id": "caramelchat",
+                          "name": "CaramelChat",
+                          "type": "FabricMod",
+                          "artifact": {
+                              "size": 163711,
+                              "MD5": "59C8AE912459442C192FF5537BF17F7A",
+                              "url": "https://cdn.modrinth.com/data/M4vJe1FJ/versions/DThCgWlO/caramelChat-mc1.21.1-fabric-1.2.2.jar"
+                          }
+                      }
+                  ]
               }
-            },
-            {
-              "id": "org.ow2.asm:asm:9.9",
-              "name": "Fabric (asm)",
-              "type": "Library",
-              "artifact": {
-                "size": 126122,
-                "MD5": "6d1dd0482c03a6dc1807d9d004456021",
-                "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm/9.9/asm-9.9.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-analysis:9.9",
-              "name": "Fabric (asm-analysis)",
-              "type": "Library",
-              "artifact": {
-                "size": 35149,
-                "MD5": "f07383cfbd50f097558341a03b8871e1",
-                "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm-analysis/9.9/asm-analysis-9.9.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-commons:9.9",
-              "name": "Fabric (asm-commons)",
-              "type": "Library",
-              "artifact": {
-                "size": 74348,
-                "MD5": "8103b3de8f48fb4c7f97efdaa46ce809",
-                "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm-commons/9.9/asm-commons-9.9.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-tree:9.9",
-              "name": "Fabric (asm-tree)",
-              "type": "Library",
-              "artifact": {
-                "size": 51947,
-                "MD5": "912eeaba1a63d574ffc66c651c7c6725",
-                "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm-tree/9.9/asm-tree-9.9.jar"
-              }
-            },
-            {
-              "id": "org.ow2.asm:asm-util:9.9",
-              "name": "Fabric (asm-util)",
-              "type": "Library",
-              "artifact": {
-                "size": 94565,
-                "MD5": "ef5e90e736cd09bc407c1d46a3faba0f",
-                "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/org/ow2/asm/asm-util/9.9/asm-util-9.9.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:sponge-mixin:0.17.0+mixin.0.8.7",
-              "name": "Fabric (sponge-mixin)",
-              "type": "Library",
-              "artifact": {
-                "size": 1505269,
-                "MD5": "d27dcb910788a0bd4bea72942a714093",
-                "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/net/fabricmc/sponge-mixin/0.17.0+mixin.0.8.7/sponge-mixin-0.17.0+mixin.0.8.7.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc:intermediary:1.21.4",
-              "name": "Fabric (intermediary)",
-              "type": "Library",
-              "artifact": {
-                "size": 701826,
-                "MD5": "d0f4187a62328d4a95f3428434efbd48",
-                "url": "https://raw.githubusercontent.com/b4psa3/PlayF-Launcher-JSON/refs/heads/main/repo/lib/net/fabricmc/intermediary/1.21.4/intermediary-1.21.4.jar"
-              }
-            },
-            {
-              "id": "net.fabricmc.fabric-api",
-              "name": "Fabric API",
-              "type": "FabricMod",
-              "artifact": {
-                "size": 11394595,
-                "MD5": "3fa0cee580b5c4a20947ae8149719a0f",
-                "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/p96k10UR/fabric-api-0.119.4%2B1.21.4.jar"
-              }
-            },
-            {
-              "id": "caramelchat",
-              "name": "CaramelChat",
-              "type": "FabricMod",
-              "artifact": {
-                "size": 472506,
-                "MD5": "f1d439b8c06e10f878f142921a20a40d",
-                "url": "https://cdn.modrinth.com/data/M4vJe1FJ/versions/DThCgWlO/caramelChat-mc1.21.1-fabric-1.2.2.jar"
-              }
-            }
           ]
-        }
-      ]
-    }
+      }
   ]
 }
