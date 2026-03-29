@@ -114,8 +114,18 @@
                           "type": "FabricMod",
                           "artifact": {
                               "size": 2149128,
-                              "MD5": "128A8D042180E7C92567342E21A21A6D",
+                              "MD5E": "128A8D042180E7C92567342E21A21A6D",
                               "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/p96k10UR/fabric-api-0.119.4%2B1.21.4.jar"
+                          }
+                      },
+                      {
+                          "id": "caramelchat",
+                          "name": "CaramelChat",
+                          "type": "FabricMod",
+                          "artifact": {
+                              "size": 163711,
+                              "MD5E": "59C8AE912459442C192FF5537BF17F7A",
+                              "url": "https://cdn.modrinth.com/data/M4vJe1FJ/versions/DThCgWlO/caramelChat-mc1.21.1-fabric-1.2.2.jar"
                           }
                       }
                   ]
