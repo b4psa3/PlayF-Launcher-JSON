@@ -114,7 +114,7 @@
               "type": "FabricMod",
               "artifact": {
                 "size": 2150000,
-                "MD5": "여기는_직접_계산_필요",
+                "MD5": "128A8D042180E7C92567342E21A21A6D",
                 "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/p96k10UR/fabric-api-0.119.4%2B1.21.4.jar"
               }
             },
@@ -124,7 +124,7 @@
               "type": "FabricMod",
               "artifact": {
                 "size": 161633,
-                "MD5": "34f877d9f7833075677051185f3684a0",
+                "MD5": "2249EA3C1174DBC8BFA7E6E294E62D1F",
                 "url": "https://cdn.modrinth.com/data/M4vJe1FJ/versions/Ule7YwhC/caramelChat-mc1.21.9-fabric-1.2.2.jar"
               }
             }
