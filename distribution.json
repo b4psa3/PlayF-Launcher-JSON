@@ -122,14 +122,14 @@
           }
         },
         {
-          "id": "maven.modrinth:caramel-chat:Ule7YwhC",
+          "id": "maven.modrinth:caramel-chat:HKDEGdCK",
           "name": "CaramelChat",
           "type": "FabricMod",
           "required": true,
           "artifact": {
-            "size": 161633,
-            "MD5": "2249EA3C1174DBC8BFA7E6E294E62D1F",
-            "url": "https://cdn.modrinth.com/data/M4vJe1FJ/versions/Ule7YwhC/caramelChat-mc1.21.9-fabric-1.2.2.jar"
+            "size": 163789,
+            "MD5": " A12A42DCC5AE49C9BB7CE00A11C87DD8",
+            "url": "https://cdn.modrinth.com/data/M4vJe1FJ/versions/HKDEGdCK/caramelChat-mc1.21.1-fabric-1.2.1.jar"
           }
         }
       ]
