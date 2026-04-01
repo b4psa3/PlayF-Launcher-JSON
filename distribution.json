@@ -15,8 +15,8 @@
       "version": "1.0.0",
       "address": "playfarm.kr",
       "minecraftVersion": "1.21.4",
-      "mainServer": false,
-      "autoconnect": true,
+      "mainServer": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.18.5",
