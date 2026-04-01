@@ -112,6 +112,7 @@
               "id": "maven.modrinth:fabric-api:p96k10UR",
               "name": "Fabric API",
               "type": "FabricMod",
+              "required": true,
               "artifact": {
                 "size": 2150000,
                 "MD5": "128A8D042180E7C92567342E21A21A6D",
@@ -122,6 +123,7 @@
               "id": "maven.modrinth:caramel-chat:Ule7YwhC",
               "name": "CaramelChat",
               "type": "FabricMod",
+              "required": true,
               "artifact": {
                 "size": 161633,
                 "MD5": "2249EA3C1174DBC8BFA7E6E294E62D1F",
