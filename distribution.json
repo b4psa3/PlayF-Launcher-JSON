@@ -127,7 +127,7 @@
           "type": "FabricMod",
           "required": true,
           "artifact": {
-            "size": 163789,
+            "size": 163784,
             "MD5": "A12A42DCC5AE49C9BB7CE00A11C87DD8",
             "url": "https://cdn.modrinth.com/data/M4vJe1FJ/versions/HKDEGdCK/caramelChat-mc1.21.1-fabric-1.2.1.jar"
           }
